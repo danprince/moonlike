@@ -1,35 +1,27 @@
 # Moonlike
 
-Below the surface of the moon there are caves
+![](https://i.imgur.com/n13WUKe.png)
 
-The further down you get the more the nature of the caves changes
+Experimental roguelike with [Moonscript][1], [Love2D][2] and [rotLove][3]
 
-1-5 regular moonrock
-5-10 glowing moonrock
-10-15 lava
+## Prerequisites
+To develop or play, you'll need [Lua][4], [Moonscript][1] and [Love2D][2] installed. Make sure that the following executables are available:
+* `moon`
+* `moonc`
+* `love`
 
-Venture down collecting rocks and equipment
+## Setup
+* Clone the repository
+* `make install`
+* `make run`
 
-Play as an inventor who found no success on earth and decided to
-fly to the moon instead.
+## Develop
+* `make watch` starts a watcher that will recompile moonscript files
+* `make clean` cleans build environment
+* `make build` compiles moonscript files
 
-As all good inventors he has an inventory
-Control him as he explores the caves of the moon in search of
-new materials that will allow him to make new ideas to send back to earth
-
-moon mote
-moon mouse
-moon man
-moon monster
-moon monkey
-moon mog
-moon millipede
-moon mole
-moon mosquito
-moon moth
-
-## tiles
-moonrock - white / blue / red
-liquid - grey / green / orange
-22
+[1]: moonscript.org 
+[2]: love2d.org
+[3]: https://github.com/paulofmandown/rotLove
+[4]: lua.org
 

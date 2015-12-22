@@ -1,3 +1,8 @@
+-- model file for defining items in game
+-- all items should have a sprite and a color
+
+import palette from require "models/colors"
+
 {
   battery:    { sprite: {0, 3} },
   crystal:    { sprite: {1, 3} },
