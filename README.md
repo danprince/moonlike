@@ -20,8 +20,8 @@ To develop or play, you'll need [Lua][4], [Moonscript][1] and [Love2D][2] instal
 * `make clean` cleans build environment
 * `make build` compiles moonscript files
 
-[1]: moonscript.org 
-[2]: love2d.org
+[1]: http://jmoonscript.org 
+[2]: https://love2d.org
 [3]: https://github.com/paulofmandown/rotLove
-[4]: lua.org
+[4]: http://lua.org
 
